@@ -1,0 +1,24 @@
+SETTINGS:
+  # updates settings in-game whenever config.yml is updated (only useful for debugging purposes)
+  # once disabled, and you want it enabled again, you will have to restart the server.
+  LIVE-SETTINGS: true
+  SPEED: 1.5 # multiply by: $SPEED # 0 is default speed  (try minus values, they're fun lol)
+  BREAK-BLOCKS: false
+  CAUSE-FIRE: false # only effective if BREAK-BLOCKS is true
+  DAMAGE-OTHERS: true
+  DAMAGE-SHOOTER: false
+  KNOCKBACK: true
+  TRAIL-INVENTORY: true
+  GLOWING: true
+  REDIRECTION: true # either to allow players to redirect the fireball by hitting it or not
+  TNT-EXPLOSION-TYPE: false # breaks more block types, and might also provide a better knockback if that's what you're into.
+  PERFORMANCE:
+    TIMEOUT: .5 #sec
+    SAFETY: true # whether to remove the fireball if it didn't hit any obstacle after a certain amount of time
+
+DELAY:
+  ENABLED: true
+  AMOUNT: 1 #sec
+  STRING:
+    ENABLED: false
+    VALUE: "&cYou must wait &7$delay &cseconds before shooting a fireball again!"

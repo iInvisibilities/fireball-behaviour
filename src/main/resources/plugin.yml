@@ -1,0 +1,21 @@
+name: Fireball
+version: '${project.version}'
+main: me.invis.fireball.Fireball
+author: Invisibilities
+description: unleash the power of balls!
+api-version: 1.13
+commands:
+  fireballtrails:
+    permission: fireball.trails
+    permission-message: "§cYou do not have permission to use this command!"
+    aliases:
+      - ft
+      - fireballt
+      - ftrails
+      - ftrail
+      - fireballtrail
+      - trailfireball
+      - ballztrails
+      - balltrails
+      - balltrailz
+      - ICEballz # yes.
